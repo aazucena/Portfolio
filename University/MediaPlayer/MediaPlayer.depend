@@ -1,0 +1,323 @@
+# depslib dependency file v1.0
+1575345756 source:/home/azua2720/Documents/assignments/MediaPlayer/test/main.cpp
+	"gtest/gtest.h"
+	"MediaPlayer.h"
+
+1575347404 source:/home/azua2720/Documents/assignments/MediaPlayer/test/TestModel.cpp
+	"Model.h"
+	"Bottom.h"
+	"Middle.h"
+	"Top.h"
+	"MediaPlayer.h"
+	"gtest/gtest.h"
+
+1574965174 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Documents/assignments/MediaPlayer/test/main.cpp
+	"gtest/gtest.h"
+
+1575343595 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Bottom.cpp
+	"Bottom.h"
+	"Widget.h"
+	"Button.h"
+	"Display.h"
+	<iostream>
+	<vector>
+
+1575343639 /home/azua2720/Documents/assignments/MediaPlayer/include/Bottom.h
+	"Model.h"
+	<vector>
+	<string>
+
+1575344017 /home/azua2720/Documents/assignments/MediaPlayer/include/Model.h
+	"Widget.h"
+	<iostream>
+	<string>
+	<vector>
+
+1575344085 /home/azua2720/Documents/assignments/MediaPlayer/include/Widget.h
+	<iostream>
+	<string>
+
+1575343679 /home/azua2720/Documents/assignments/MediaPlayer/include/Button.h
+	"Widget.h"
+	"Mode.h"
+	"Variant.h"
+	<iostream>
+	<iomanip>
+	<string>
+
+1575343558 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Variant.cpp
+	"Variant.h"
+	<iostream>
+	<string>
+
+1575344068 /home/azua2720/Documents/assignments/MediaPlayer/include/Variant.h
+	<iostream>
+	<string>
+
+1575344472 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Widget.cpp
+	"Widget.h"
+	<iostream>
+	<string>
+
+1575343558 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Display.cpp
+	"Display.h"
+	<iostream>
+	<iomanip>
+	<string>
+
+1575343703 /home/azua2720/Documents/assignments/MediaPlayer/include/Display.h
+	"Widget.h"
+	<iostream>
+	<iomanip>
+	<string>
+
+1575347031 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Mode.cpp
+	"Mode.h"
+	"Variant.h"
+	"ModeState.h"
+	"Mp3Mode.h"
+	"VideoMode.h"
+	"RadioMode.h"
+	<iostream>
+	<string>
+
+1575346433 /home/azua2720/Documents/assignments/MediaPlayer/include/Mode.h
+	<iostream>
+	<string>
+	"ModeState.h"
+	"Variant.h"
+
+1575343557 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Model.cpp
+	"Model.h"
+	"Top.h"
+	"Bottom.h"
+	"Middle.h"
+	"Widget.h"
+	<iostream>
+	<string>
+	<vector>
+
+1575344266 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Button.cpp
+	"Button.h"
+	"Mode.h"
+	"ButtonObserver.h"
+	"Variant.h"
+	<iostream>
+	<iomanip>
+	<string>
+
+1575343557 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Top.cpp
+	"Top.h"
+	"Widget.h"
+	"Button.h"
+	"Display.h"
+	<iostream>
+	<vector>
+
+1575344106 /home/azua2720/Documents/assignments/MediaPlayer/include/Top.h
+	"Model.h"
+	<string>
+
+1575344247 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Middle.cpp
+	"Middle.h"
+	"Widget.h"
+	"Button.h"
+	"Display.h"
+	<iostream>
+	<vector>
+
+1575343793 /home/azua2720/Documents/assignments/MediaPlayer/include/Middle.h
+	"Model.h"
+	<string>
+
+1575343766 /home/azua2720/Documents/assignments/MediaPlayer/include/MediaPlayer.h
+	"Mode.h"
+	"Model.h"
+	"Variant.h"
+	<iostream>
+
+1575343557 source:/home/azua2720/Documents/assignments/MediaPlayer/src/MediaPlayer.cpp
+	"MediaPlayer.h"
+	"MediaPlayerFactory.h"
+	"Mode.h"
+	"Model.h"
+	"Variant.h"
+	<iostream>
+
+1575235710 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Player.cpp
+	"MediaPlayer.h"
+	"Bottom.h"
+	"Middle.h"
+	"Top.h"
+	"Mode.h"
+	"Button.h"
+	"Display.h"
+	"Variant.h"
+	"Widget.h"
+	<iostream>
+	<string>
+	<iostream>
+
+1575237844 source:/home/azua2720/Documents/assignments/MediaPlayer/src/player/Player.cpp
+	"MediaPlayer.h"
+	"Bottom.h"
+	"Middle.h"
+	"Top.h"
+	"Mode.h"
+	"Button.h"
+	"Display.h"
+	"Variant.h"
+	"Widget.h"
+	<iostream>
+	<string>
+	<iostream>
+
+1575241522 source:/home/azua2720/Documents/assignments/MediaPlayer/src/MP3.cpp
+	"MP3.h"
+
+1575243417 /home/azua2720/Documents/assignments/MediaPlayer/include/MP3.h
+	"Mode.h"
+
+1575241521 source:/home/azua2720/Documents/assignments/MediaPlayer/src/RADIO.cpp
+	"RADIO.h"
+
+1575243417 /home/azua2720/Documents/assignments/MediaPlayer/include/RADIO.h
+	"Mode.h"
+
+1575241521 source:/home/azua2720/Documents/assignments/MediaPlayer/src/VIDEO.cpp
+	"VIDEO.h"
+
+1575243376 /home/azua2720/Documents/assignments/MediaPlayer/include/VIDEO.h
+	"Mode.h"
+
+1575346419 source:/home/azua2720/Documents/assignments/MediaPlayer/src/Mp3Mode.cpp
+	"Mp3Mode.h"
+
+1575347322 /home/azua2720/Documents/assignments/MediaPlayer/include/Mp3Mode.h
+	"ModeState.h"
+	<string>
+
+1575346410 source:/home/azua2720/Documents/assignments/MediaPlayer/src/RadioMode.cpp
+	"RadioMode.h"
+
+1575347322 /home/azua2720/Documents/assignments/MediaPlayer/include/RadioMode.h
+	"ModeState.h"
+	<string>
+
+1575346414 source:/home/azua2720/Documents/assignments/MediaPlayer/src/VideoMode.cpp
+	"VideoMode.h"
+
+1575347321 /home/azua2720/Documents/assignments/MediaPlayer/include/VideoMode.h
+	"ModeState.h"
+	<string>
+
+1575347236 /home/azua2720/Documents/assignments/MediaPlayer/include/ModeState.h
+	<iostream>
+	<string>
+
+1575347234 source:/home/azua2720/Documents/assignments/MediaPlayer/src/ModeState.cpp
+	"ModeState.h"
+	<iostream>
+	<string>
+
+1575256997 /home/azua2720/Documents/assignments/MediaPlayer/include/ButtonReceiver.h
+
+1575344142 source:/home/azua2720/Documents/assignments/MediaPlayer/src/ButtonCommand.cpp
+	"ButtonCommand.h"
+	"Button.h"
+
+1575256695 source:/home/azua2720/Documents/assignments/MediaPlayer/src/ButtonInvoker.cpp
+
+1575255999 source:/home/azua2720/Documents/assignments/MediaPlayer/src/ButtonReceiver.cpp
+
+1575257931 source:/home/azua2720/Documents/assignments/MediaPlayer/src/ChangeCommand.cpp
+	"ChangeCommand.h"
+
+1575343666 /home/azua2720/Documents/assignments/MediaPlayer/include/ButtonCommand.h
+	"Button.h"
+	"Mode.h"
+
+1575257946 source:/home/azua2720/Documents/assignments/MediaPlayer/src/ForwardCommand.cpp
+	"ForwardCommand.h"
+
+1575257964 source:/home/azua2720/Documents/assignments/MediaPlayer/src/PlayCommand.cpp
+	"PlayCommand.h"
+
+1575258001 source:/home/azua2720/Documents/assignments/MediaPlayer/src/RewindCommand.cpp
+	"RewindCommand.h"
+
+1575257759 /home/azua2720/Documents/assignments/MediaPlayer/include/RewindCommand.h
+	"ButtonCommand.h"
+
+1575257894 source:/home/azua2720/Documents/assignments/MediaPlayer/src/PauseCommand.cpp
+	"PauseCommand.h"
+
+1575336003 /home/azua2720/Documents/assignments/MediaPlayer/include/VA.h
+	"Variant.h"
+	"Mode.h"
+
+1575336001 /home/azua2720/Documents/assignments/MediaPlayer/include/VR.h
+	"Variant.h"
+	"Mode.h"
+
+1575336006 /home/azua2720/Documents/assignments/MediaPlayer/include/VD.h
+	"Variant.h"
+	"Mode.h"
+
+1575257898 /home/azua2720/Documents/assignments/MediaPlayer/include/PauseCommand.h
+	"ButtonCommand.h"
+
+1575257790 /home/azua2720/Documents/assignments/MediaPlayer/include/ChangeCommand.h
+	"ButtonCommand.h"
+
+1575257746 /home/azua2720/Documents/assignments/MediaPlayer/include/ForwardCommand.h
+	"ButtonCommand.h"
+
+1575257729 /home/azua2720/Documents/assignments/MediaPlayer/include/PlayCommand.h
+	"ButtonCommand.h"
+
+1575343558 source:/home/azua2720/Documents/assignments/MediaPlayer/src/MediaPlayerFactory.cpp
+	"MediaPlayerFactory.h"
+	"MediaPlayer.h"
+	"Mode.h"
+	"Mp3Mode.h"
+	"VideoMode.h"
+	"RadioMode.h"
+	"Model.h"
+	"Variant.h"
+	<iostream>
+
+1575343730 /home/azua2720/Documents/assignments/MediaPlayer/include/MediaPlayerFactory.h
+	"Mode.h"
+	"Model.h"
+	"Variant.h"
+	<iostream>
+
+1575343692 /home/azua2720/Documents/assignments/MediaPlayer/include/ButtonObserver.h
+	"ButtonCommand.h"
+	"Button.h"
+
+1575335795 source:/home/azua2720/Documents/assignments/MediaPlayer/src/ButtonObserver.cpp
+	"ButtonObserver.h"
+	"Button.h"
+	<iostream>
+	<fstream>
+
+1575346662 source:/home/azua2720/Documents/assignments/MediaPlayer/test/TestVariant.cpp
+	"Variant.h"
+	"MediaPlayer.h"
+	"gtest/gtest.h"
+
+1575346865 source:/home/azua2720/Documents/assignments/MediaPlayer/test/TestButton.cpp
+	"Button.h"
+	"MediaPlayer.h"
+	"gtest/gtest.h"
+
+1575347355 source:/home/azua2720/Documents/assignments/MediaPlayer/test/TestMode.cpp
+	"ModeState.h"
+	"Mp3Mode.h"
+	"VideoMode.h"
+	"RadioMode.h"
+	"MediaPlayer.h"
+	"gtest/gtest.h"
+

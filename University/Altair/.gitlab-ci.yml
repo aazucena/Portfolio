@@ -1,0 +1,29 @@
+build:
+   stage: build
+   script:
+      - make Youth.cbp
+   artifacts:
+      paths:
+         - Youth.cbp
+
+test:
+   stage: test
+   script:
+      - make testYouth
+
+
+pages:
+   stage: deploy
+   dependencies:
+      - test
+   script:
+      - make memory
+      - make coverage
+      - make static
+      - make style
+      - make docs
+   artifacts:
+      paths:
+         - coverage
+         - docs
+      expire_in: 40 days

@@ -1,0 +1,23 @@
+test:
+   stage: test
+   script:
+      - make coverage
+   artifacts:
+      paths:
+         - coverage
+
+reports:
+   stage: deploy
+   dependencies:
+      - test
+   script:
+      - make memcheck
+      - make static
+      - make style
+      - make docs
+   artifacts:
+      paths:
+         - docs
+      expire_in: 14 days
+   only:
+      - master

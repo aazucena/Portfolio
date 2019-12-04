@@ -1,0 +1,2221 @@
+# depslib dependency file v1.0
+1573750238 source:/home/azua2720/Documents/Projects/Altair/src/Character.cpp
+	<string>
+	"Character.h"
+
+1573750238 .h"
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/Character.h
+	<string>
+	"Person.h"
+
+1573750238 
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/Person.h
+	<string>
+
+1573767812 source:/home/azua2720/Documents/Projects/Altair/src/CharacterManager.cpp
+	<string>
+	<vector>
+	<iostream>
+	"Character.h"
+	"CharacterManager.h"
+	"Exceptions.h"
+	"StringMagician.h"
+
+1573791183 ician.h"
+
+1573767105 /home/azua2720/Documents/Projects/Altair/include/CharacterManager.h
+	<vector>
+	<string>
+	<locale>
+	"Character.h"
+	"Exceptions.h"
+
+1573767105 s.h"
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/Exceptions.h
+	<stdexcept>
+
+1573750238 >
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/StringMagician.h
+	<string>
+	<locale>
+
+1573750238 source:/home/azua2720/Documents/Projects/Altair/src/Choice.cpp
+	<vector>
+	<string>
+	<iostream>
+	"Choice.h"
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/Choice.h
+	<vector>
+	<string>
+	<iostream>
+
+1573750238 source:/home/azua2720/Documents/Projects/Altair/src/Date.cpp
+	<string>
+	"Date.h"
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/Date.h
+	<string>
+
+1573750238 source:/home/azua2720/Documents/Projects/Altair/src/Event.cpp
+	<iostream>
+	<string>
+	"Date.h"
+	"Event.h"
+	"Choice.h"
+	"StringMagician.h"
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/Event.h
+	<iostream>
+	<string>
+	<vector>
+	"Date.h"
+	"Choice.h"
+
+1573789616 source:/home/azua2720/Documents/Projects/Altair/src/EventManager.cpp
+	<iostream>
+	<vector>
+	<string>
+	"Choice.h"
+	"Event.h"
+	"EventManager.h"
+	"StringMagician.h"
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/EventManager.h
+	<iostream>
+	<string>
+	<vector>
+	"Event.h"
+
+1573750238 source:/home/azua2720/Documents/Projects/Altair/src/game/main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"GameStateManager.h"
+
+1573750238 Manager.h"
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/GameStateManager.h
+	<string>
+	<iostream>
+	<locale>
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+
+1573750238 alogueManager.h"
+
+1573769554 /home/azua2720/Documents/Projects/Altair/include/Player.h
+	<string>
+	<vector>
+	"Person.h"
+	"Stat.h"
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/Stat.h
+	<string>
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/GameDataManager.h
+	<iostream>
+	<string>
+	"FileManager.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+
+1573494881 /home/azua2720/Documents/Projects/Altair/include/FileManager.h
+	<fstream>
+	<iostream>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+
+1573750238 /home/azua2720/Documents/Projects/Altair/include/RoutineDialogueManager.h
+	<iostream>
+	<string>
+
+1573785024 source:/home/azua2720/Documents/Projects/Altair/src/GameDataManager.cpp
+	<iostream>
+	<string>
+	<locale>
+	<unistd.h>
+	"GameDataManager.h"
+	"FileManager.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"StringMagician.h"
+
+1573788612 source:/home/azua2720/Documents/Projects/Altair/src/GameStateManager.cpp
+	<iostream>
+	<unistd.h>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+	"GameStateManager.h"
+	"Date.h"
+	"Player.h"
+	"StringMagician.h"
+
+1573750238 source:/home/azua2720/Documents/Projects/Altair/src/Person.cpp
+	<string>
+	"Person.h"
+
+1573779513 source:/home/azua2720/Documents/Projects/Altair/src/Player.cpp
+	<string>
+	"Person.h"
+	"Stat.h"
+	"Player.h"
+	"StringMagician.h"
+
+1573788619 source:/home/azua2720/Documents/Projects/Altair/src/RoutineDialogueManager.cpp
+	<iostream>
+	<string>
+	<unistd.h>
+	"RoutineDialogueManager.h"
+	"Player.h"
+	"Choice.h"
+
+1573750238 source:/home/azua2720/Documents/Projects/Altair/src/Stat.cpp
+	<string>
+	"Stat.h"
+
+1573769248 source:/home/azua2720/Documents/Projects/Altair/src/FileManager.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+	"FileManager.h"
+
+1573769248 er.h"
+
+1573750238 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\character.cpp
+	<string>
+	"Character.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\character.h
+	<string>
+	"Person.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\person.h
+	<string>
+
+1573767812 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\charactermanager.cpp
+	<string>
+	<vector>
+	<iostream>
+	"Character.h"
+	"CharacterManager.h"
+	"Exceptions.h"
+	"StringMagician.h"
+
+1573767105 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\charactermanager.h
+	<vector>
+	<string>
+	<locale>
+	"Character.h"
+	"Exceptions.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\exceptions.h
+	<stdexcept>
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\stringmagician.h
+	<string>
+	<locale>
+
+1573750238 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\choice.cpp
+	<vector>
+	<string>
+	<iostream>
+	"Choice.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\choice.h
+	<vector>
+	<string>
+	<iostream>
+
+1573750238 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\date.cpp
+	<string>
+	"Date.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\date.h
+	<string>
+
+1573750238 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\event.cpp
+	<iostream>
+	<string>
+	"Date.h"
+	"Event.h"
+	"Choice.h"
+	"StringMagician.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\event.h
+	<iostream>
+	<string>
+	<vector>
+	"Date.h"
+	"Choice.h"
+
+1573790633 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\eventmanager.cpp
+	<iostream>
+	<vector>
+	<string>
+	"Choice.h"
+	"Event.h"
+	"EventManager.h"
+	"StringMagician.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\eventmanager.h
+	<iostream>
+	<string>
+	<vector>
+	"Event.h"
+
+1573769248 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\filemanager.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+	"FileManager.h"
+
+1573769554 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\player.h
+	<string>
+	<vector>
+	"Person.h"
+	"Stat.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\stat.h
+	<string>
+
+1573494881 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\filemanager.h
+	<fstream>
+	<iostream>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+
+1573750238 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\game\main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"GameStateManager.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\gamestatemanager.h
+	<string>
+	<iostream>
+	<locale>
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\gamedatamanager.h
+	<iostream>
+	<string>
+	"FileManager.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+
+1573750238 \\thisislaptop101\virtualbox vm shared folder\programming\university\altair\include\routinedialoguemanager.h
+	<iostream>
+	<string>
+
+1573785024 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\gamedatamanager.cpp
+	<iostream>
+	<string>
+	<locale>
+	<unistd.h>
+	"GameDataManager.h"
+	"FileManager.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"StringMagician.h"
+
+1573750238 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\person.cpp
+	<string>
+	"Person.h"
+
+1573779513 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\player.cpp
+	<string>
+	"Person.h"
+	"Stat.h"
+	"Player.h"
+	"StringMagician.h"
+
+1573790959 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\routinedialoguemanager.cpp
+	<iostream>
+	<string>
+	<unistd.h>
+	"RoutineDialogueManager.h"
+	"Player.h"
+	"Choice.h"
+
+1573750238 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\stat.cpp
+	<string>
+	"Stat.h"
+
+1573791183 source:\\thisislaptop101\virtualbox vm shared folder\programming\university\altair\src\gamestatemanager.cpp
+	<iostream>
+	<unistd.h>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+	"GameStateManager.h"
+	"Date.h"
+	"Player.h"
+	"StringMagician.h"
+
+1573795884 source:/home/aazucena/Desktop/Altair/src/Character.cpp
+	<string>
+	"Character.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/Character.h
+	<string>
+	"Person.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/Person.h
+	<string>
+
+1573795884 source:/home/aazucena/Desktop/Altair/src/CharacterManager.cpp
+	<string>
+	<vector>
+	<iostream>
+	"Character.h"
+	"CharacterManager.h"
+	"Exceptions.h"
+	"StringMagician.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/CharacterManager.h
+	<vector>
+	<string>
+	<locale>
+	"Character.h"
+	"Exceptions.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/Exceptions.h
+	<stdexcept>
+
+1573795928 /home/aazucena/Desktop/Altair/include/StringMagician.h
+	<string>
+	<locale>
+
+1573795884 source:/home/aazucena/Desktop/Altair/src/Choice.cpp
+	<vector>
+	<string>
+	<iostream>
+	"Choice.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/Choice.h
+	<vector>
+	<string>
+	<iostream>
+
+1573795884 source:/home/aazucena/Desktop/Altair/src/Date.cpp
+	<string>
+	"Date.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/Date.h
+	<string>
+
+1573803698 source:/home/aazucena/Desktop/Altair/src/Event.cpp
+	<iostream>
+	<string>
+	<unistd.h>
+	"Date.h"
+	"Event.h"
+	"Choice.h"
+	"StringMagician.h"
+
+1573803500 /home/aazucena/Desktop/Altair/include/Event.h
+	<iostream>
+	<string>
+	<vector>
+	"Date.h"
+	"Choice.h"
+
+1573803604 source:/home/aazucena/Desktop/Altair/src/EventManager.cpp
+	<iostream>
+	<vector>
+	<string>
+	"Choice.h"
+	"Event.h"
+	"EventManager.h"
+	"StringMagician.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/EventManager.h
+	<iostream>
+	<string>
+	<vector>
+	"Event.h"
+
+1573795884 source:/home/aazucena/Desktop/Altair/src/FileManager.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+	"FileManager.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/Player.h
+	<string>
+	<vector>
+	"Person.h"
+	"Stat.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/Stat.h
+	<string>
+
+1573795928 /home/aazucena/Desktop/Altair/include/FileManager.h
+	<fstream>
+	<iostream>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+
+1573795943 source:/home/aazucena/Desktop/Altair/src/game/main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"GameStateManager.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/GameStateManager.h
+	<string>
+	<iostream>
+	<locale>
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+
+1573795928 /home/aazucena/Desktop/Altair/include/GameDataManager.h
+	<iostream>
+	<string>
+	"FileManager.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+
+1573803751 /home/aazucena/Desktop/Altair/include/RoutineDialogueManager.h
+	<iostream>
+	<string>
+
+1573795884 source:/home/aazucena/Desktop/Altair/src/GameDataManager.cpp
+	<iostream>
+	<string>
+	<locale>
+	<unistd.h>
+	"GameDataManager.h"
+	"FileManager.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"StringMagician.h"
+
+1573803660 source:/home/aazucena/Desktop/Altair/src/GameStateManager.cpp
+	<iostream>
+	<unistd.h>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+	"GameStateManager.h"
+	"Date.h"
+	"Player.h"
+	"StringMagician.h"
+
+1573795884 source:/home/aazucena/Desktop/Altair/src/Person.cpp
+	<string>
+	"Person.h"
+
+1573795884 source:/home/aazucena/Desktop/Altair/src/Player.cpp
+	<string>
+	"Person.h"
+	"Stat.h"
+	"Player.h"
+	"StringMagician.h"
+
+1573810007 source:/home/aazucena/Desktop/Altair/src/RoutineDialogueManager.cpp
+	<iostream>
+	<string>
+	<unistd.h>
+	"RoutineDialogueManager.h"
+	"Player.h"
+	"Choice.h"
+	"StringMagician.h"
+
+1573795884 source:/home/aazucena/Desktop/Altair/src/Stat.cpp
+	<string>
+	"Stat.h"
+
+1573939538 source:/home/azua2720/Documents/Projects/Altair/src/Character.cpp
+	<string>
+	<iostream>
+	"Character.h"
+	"StringMagician.h"
+
+1573874017 /home/azua2720/Documents/Projects/Altair/include/Character.h
+	<string>
+	"Person.h"
+
+1573945699 /home/azua2720/Documents/Projects/Altair/include/Person.h
+	<string>
+
+1573931092 source:/home/azua2720/Documents/Projects/Altair/src/CharacterManager.cpp
+	<string>
+	<vector>
+	"Character.h"
+	"CharacterManager.h"
+	"Exceptions.h"
+	"StringMagician.h"
+
+1573946703 /home/azua2720/Documents/Projects/Altair/include/CharacterManager.h
+	<vector>
+	<string>
+	<locale>
+	"Character.h"
+	"Exceptions.h"
+
+1573816487 /home/azua2720/Documents/Projects/Altair/include/Exceptions.h
+	<stdexcept>
+
+1573937893 /home/azua2720/Documents/Projects/Altair/include/StringMagician.h
+	<string>
+	<locale>
+
+1573966111 source:/home/azua2720/Documents/Projects/Altair/src/Choice.cpp
+	<vector>
+	<string>
+	<iostream>
+	<unistd.h>
+	"Person.h"
+	"HelperPerson.h"
+	"Player.h"
+	"CharacterManager.h"
+	"Choice.h"
+
+1573959961 /home/azua2720/Documents/Projects/Altair/include/Choice.h
+	<vector>
+	<string>
+	<iostream>
+	"Person.h"
+	"HelperPerson.h"
+
+1573952242 source:/home/azua2720/Documents/Projects/Altair/src/Club.cpp
+	<iostream>
+	<unistd.h>
+	<string>
+	"Player.h"
+	"Club.h"
+	"StringMagician.h"
+
+1573943686 /home/azua2720/Documents/Projects/Altair/include/Stat.h
+	<string>
+
+1573965094 /home/azua2720/Documents/Projects/Altair/include/Player.h
+	<string>
+	<vector>
+	"Person.h"
+	"Stat.h"
+	"Club.h"
+
+1573944246 /home/azua2720/Documents/Projects/Altair/include/Event.h
+	<iostream>
+	<string>
+	<vector>
+	"Date.h"
+	"Choice.h"
+
+1573816481 /home/azua2720/Documents/Projects/Altair/include/Date.h
+	<string>
+
+1573930897 /home/azua2720/Documents/Projects/Altair/include/Club.h
+	<iostream>
+	<string>
+	"Player.h"
+	"Stat.h"
+
+1573816548 source:/home/azua2720/Documents/Projects/Altair/src/Date.cpp
+	<string>
+	"Date.h"
+
+1573963437 source:/home/azua2720/Documents/Projects/Altair/src/Event.cpp
+	<iostream>
+	<string>
+	"Date.h"
+	"Event.h"
+	"Choice.h"
+	"StringMagician.h"
+	<unistd.h>
+
+1573972422 source:/home/azua2720/Documents/Projects/Altair/src/EventManager.cpp
+	<iostream>
+	<vector>
+	<unistd.h>
+	<string>
+	"Choice.h"
+	"Event.h"
+	"EventManager.h"
+	"StringMagician.h"
+	"Job.h"
+	"Club.h"
+	"Hangout.h"
+	"HelperPerson.h"
+
+1573972725 /home/azua2720/Documents/Projects/Altair/include/EventManager.h
+	<iostream>
+	<string>
+	<vector>
+	"Event.h"
+
+1573972678 source:/home/azua2720/Documents/Projects/Altair/src/FileManager.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+	"FileManager.h"
+
+1573970004 /home/azua2720/Documents/Projects/Altair/include/FileManager.h
+	<fstream>
+	<iostream>
+	<string>
+	"Character.h"
+	"EventManager.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+
+1573968098 source:/home/azua2720/Documents/Projects/Altair/src/game/main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"GameStateManager.h"
+
+1573967387 /home/azua2720/Documents/Projects/Altair/include/GameStateManager.h
+	<string>
+	<iostream>
+	<locale>
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+
+1573946197 /home/azua2720/Documents/Projects/Altair/include/GameDataManager.h
+	<iostream>
+	<string>
+	"FileManager.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+
+1573816506 /home/azua2720/Documents/Projects/Altair/include/RoutineDialogueManager.h
+	<iostream>
+	<string>
+
+1573867488 source:/home/azua2720/Documents/Projects/Altair/src/Item.cpp
+	<iostream>
+	<string>
+	<vector>
+	<Item.h>
+
+1573867439 /home/azua2720/Documents/Projects/Altair/include/Item.h
+
+1573816560 source:/home/azua2720/Documents/Projects/Altair/src/Location.cpp
+	<iostream>
+	<vector>
+	<string>
+	"Location.h"
+
+1573816500 /home/azua2720/Documents/Projects/Altair/include/Location.h
+	<iostream>
+	<vector>
+	<string>
+
+1573816560 source:/home/azua2720/Documents/Projects/Altair/src/Person.cpp
+	<string>
+	"Person.h"
+
+1573942716 source:/home/azua2720/Documents/Projects/Altair/src/Player.cpp
+	<string>
+	<cmath>
+	"Person.h"
+	"Stat.h"
+	"Player.h"
+	"StringMagician.h"
+
+1573867039 source:/home/azua2720/Documents/Projects/Altair/src/Gift.cpp
+	<iostream>
+	<string>
+	"Gift.h"
+	"Player.h"
+	"Event.h"
+	"Character.h"
+
+1573964088 /home/azua2720/Documents/Projects/Altair/include/Gift.h
+	"Character.h"
+	"Item.h"
+
+1573942207 source:/home/azua2720/Documents/Projects/Altair/src/Stat.cpp
+	<string>
+	"Stat.h"
+	"StringMagician.h"
+
+1573815547 source:/home/azua2720/Documents/Projects/Altair/src/test.cpp
+
+1573816099 source:/home/azua2720/Documents/Projects/Altair/test/main.cpp
+	"gtest/gtest.h"
+
+1573970016 source:/home/azua2720/Documents/Projects/Altair/src/GameDataManager.cpp
+	<iostream>
+	<string>
+	<locale>
+	<unistd.h>
+	"GameDataManager.h"
+	"FileManager.h"
+	"Player.h"
+	"ItemInventory.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameStateManager.h"
+	"EventManager.h"
+	"StringMagician.h"
+
+1573860997 /home/azua2720/Documents/Projects/Altair/include/ItemInventory.h
+	"Item.h"
+
+1573968512 source:/home/azua2720/Documents/Projects/Altair/src/GameStateManager.cpp
+	<iostream>
+	<unistd.h>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+	"GameStateManager.h"
+	"ItemInventory.h"
+	"Date.h"
+	"Player.h"
+	"Job.h"
+	"Club.h"
+	"Hangout.h"
+	"StringMagician.h"
+
+1573863588 source:/home/azua2720/Documents/Projects/Altair/src/ItemInventory.cpp
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"ItemInventory.h"
+	"Player.h"
+	"Event.h"
+	"Character.h"
+	"Date.h"
+	"Item.h"
+	"KeyLines.h"
+	"Gift.h"
+
+1573880146 source:/home/azua2720/Documents/Projects/Altair/src/KeyLines.cpp
+	<iostream>
+	<string>
+	"KeyLines.h"
+
+1573865220 /home/azua2720/Documents/Projects/Altair/include/KeyLines.h
+	"Player.h"
+	"Event.h"
+	"Item.h"
+
+1573970456 source:/home/azua2720/Documents/Projects/Altair/src/RoutineDialogueManager.cpp
+	<iostream>
+	<string>
+	<sstream>
+	<unistd.h>
+	"RoutineDialogueManager.h"
+	"Player.h"
+	"Choice.h"
+	"KeyLines.h"
+	"Gift.h"
+	"DialogueManager.h"
+	"Character.h"
+	"CharacterManager.h"
+	"StringMagician.h"
+
+1573867184 source:/home/azua2720/Documents/Projects/Altair/src/DialogueManager.cpp
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"DialogueManager.h"
+
+1573863360 /home/azua2720/Documents/Projects/Altair/include/DialogueManager.h
+	"KeyLines.h"
+
+1573952525 source:/home/azua2720/Documents/Projects/Altair/src/Job.cpp
+	<iostream>
+	<string>
+	<vector>
+	<unistd.h>
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Hangout.h"
+	"StringMagician.h"
+
+1573930834 /home/azua2720/Documents/Projects/Altair/include/Job.h
+	<iostream>
+	"Character.h"
+	"Event.h"
+	"Date.h"
+
+1573952556 source:/home/azua2720/Documents/Projects/Altair/src/Hangout.cpp
+	<iostream>
+	<string>
+	<unistd.h>
+	<iomanip>
+	"Job.h"
+	"Player.h"
+
+1573930810 /home/azua2720/Documents/Projects/Altair/include/Hangout.h
+	<iostream>
+	"Character.h"
+	"CharacterManager.h"
+
+1573959371 /home/azua2720/Documents/Projects/Altair/include/HelperPerson.h
+	<iostream>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+
+1573959391 source:/home/azua2720/Documents/Projects/Altair/src/HelperPerson.cpp
+	<string>
+	<iostream>
+	<unistd.h>
+	"Person.h"
+	"Player.h"
+	"Character.h"
+	"HelperPerson.h"
+	"CharacterManager.h"
+	"StringMagician.h"
+
+1574647650 source:/home/azua2720/Music/Altair/src/Character.cpp
+	<string>
+	<iostream>
+	"Character.h"
+	"StringMagician.h"
+
+1574647664 /home/azua2720/Music/Altair/include/Character.h
+	<string>
+	"Person.h"
+
+1574203109 /home/azua2720/Music/Altair/include/Person.h
+	<string>
+
+1574203377 /home/azua2720/Music/Altair/include/StringMagician.h
+	<string>
+	<locale>
+
+1574826365 source:/home/azua2720/Music/Altair/src/CharacterManager.cpp
+	<string>
+	<vector>
+	<algorithm>
+	"Character.h"
+	"Player.h"
+	"CharacterManager.h"
+	"Exceptions.h"
+	"StringMagician.h"
+
+1574820404 /home/azua2720/Music/Altair/include/CharacterManager.h
+	<vector>
+	<string>
+	<locale>
+	"Character.h"
+	"Exceptions.h"
+
+1574202451 /home/azua2720/Music/Altair/include/Exceptions.h
+	<stdexcept>
+
+1574645711 source:/home/azua2720/Music/Altair/src/Choice.cpp
+	"Person.h"
+	"HelperPerson.h"
+	"Player.h"
+	"Dialogue.h"
+	"CharacterManager.h"
+	"Choice.h"
+	<unistd.h>
+	<vector>
+	<string>
+	<iostream>
+
+1574202669 /home/azua2720/Music/Altair/include/HelperPerson.h
+	<iostream>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+
+1574478637 /home/azua2720/Music/Altair/include/Player.h
+	<string>
+	<vector>
+	"Person.h"
+	"Stat.h"
+	"Club.h"
+
+1574203322 /home/azua2720/Music/Altair/include/Stat.h
+	<string>
+
+1574201984 /home/azua2720/Music/Altair/include/Club.h
+	<iostream>
+	<string>
+	"Player.h"
+	"Stat.h"
+
+1574645713 /home/azua2720/Music/Altair/include/Choice.h
+	<vector>
+	<string>
+	<iostream>
+	"Person.h"
+	"HelperPerson.h"
+
+1574492983 source:/home/azua2720/Music/Altair/src/Club.cpp
+	"Player.h"
+	"Club.h"
+	"StringMagician.h"
+	"Dialogue.h"
+	"Choice.h"
+	"Event.h"
+	"EventManager.h"
+	<unistd.h>
+	<iostream>
+	<string>
+
+1574474218 source:/home/azua2720/Music/Altair/src/Date.cpp
+	<string>
+	"Date.h"
+	"Event.h"
+	"EventManager.h"
+
+1574474192 /home/azua2720/Music/Altair/include/Date.h
+	<string>
+
+1574219274 source:/home/azua2720/Music/Altair/src/DialogueManager.cpp
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"DialogueManager.h"
+
+1574202343 /home/azua2720/Music/Altair/include/DialogueManager.h
+	<vector>
+	"KeyLines.h"
+
+1574819992 /home/azua2720/Music/Altair/include/KeyLines.h
+	"Player.h"
+	"Event.h"
+	"Item.h"
+	<string>
+
+1574474203 /home/azua2720/Music/Altair/include/Event.h
+	<iostream>
+	<string>
+	<vector>
+	"Date.h"
+	"Choice.h"
+
+1574203606 /home/azua2720/Music/Altair/include/Item.h
+	<string>
+
+1574546123 source:/home/azua2720/Music/Altair/src/Event.cpp
+	"Date.h"
+	"Event.h"
+	"Dialogue.h"
+	"Choice.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+
+1574833211 source:/home/azua2720/Music/Altair/src/EventManager.cpp
+	"Choice.h"
+	"Event.h"
+	"EventManager.h"
+	"StringMagician.h"
+	"Job.h"
+	"Club.h"
+	"Dialogue.h"
+	"Hangout.h"
+	"HelperPerson.h"
+	"ItemShop.h"
+	<unistd.h>
+	<string>
+	<iostream>
+	<vector>
+
+1574828544 /home/azua2720/Music/Altair/include/EventManager.h
+	<iostream>
+	<string>
+	<vector>
+	"Event.h"
+
+1574502720 /home/azua2720/Music/Altair/include/Job.h
+	<iostream>
+	<string>
+	"Character.h"
+	"Event.h"
+	"Date.h"
+
+1574202732 /home/azua2720/Music/Altair/include/Hangout.h
+	<iostream>
+	"Character.h"
+	"CharacterManager.h"
+
+1574202637 /home/azua2720/Music/Altair/include/Gift.h
+	"Character.h"
+	"Item.h"
+	<string>
+
+1574202942 /home/azua2720/Music/Altair/include/ItemInventory.h
+	"Item.h"
+	"Character.h"
+	<locale>
+	<vector>
+
+1574830047 source:/home/azua2720/Music/Altair/src/FileManager.cpp
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+	"FileManager.h"
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+
+1574823651 /home/azua2720/Music/Altair/include/FileManager.h
+	<fstream>
+	<iostream>
+	<string>
+	"Character.h"
+	"EventManager.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+
+1574291203 source:/home/azua2720/Music/Altair/src/game/main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"GameStateManager.h"
+
+1574360259 /home/azua2720/Music/Altair/include/GameStateManager.h
+	<string>
+	<iostream>
+	<locale>
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+	"Dialogue.h"
+
+1574202544 /home/azua2720/Music/Altair/include/GameDataManager.h
+	<iostream>
+	<string>
+	"FileManager.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+
+1574466213 /home/azua2720/Music/Altair/include/RoutineDialogueManager.h
+	"Player.h"
+	"Character.h"
+	<iostream>
+	<string>
+
+1574651852 source:/home/azua2720/Music/Altair/src/GameDataManager.cpp
+	"GameDataManager.h"
+	"FileManager.h"
+	"Player.h"
+	"ItemInventory.h"
+	"Character.h"
+	"Dialogue.h"
+	"CharacterManager.h"
+	"GameStateManager.h"
+	"EventManager.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<locale>
+
+1574832523 source:/home/azua2720/Music/Altair/src/GameStateManager.cpp
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+	"GameStateManager.h"
+	"Date.h"
+	"Player.h"
+	"Job.h"
+	"Club.h"
+	"Hangout.h"
+	"StringMagician.h"
+	<unistd.h>
+	<string>
+	<iostream>
+
+1574238034 source:/home/azua2720/Music/Altair/src/Gift.cpp
+	"Gift.h"
+	"ItemInventory.h"
+	"Item.h"
+	"Player.h"
+	"Event.h"
+	"Character.h"
+	<unistd.h>
+	<iostream>
+	<string>
+
+1574501167 source:/home/azua2720/Music/Altair/src/Hangout.cpp
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Dialogue.h"
+	"Hangout.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<vector>
+
+1574274588 source:/home/azua2720/Music/Altair/src/HelperPerson.cpp
+	"Person.h"
+	"Player.h"
+	"Character.h"
+	"HelperPerson.h"
+	"CharacterManager.h"
+	"StringMagician.h"
+	<unistd.h>
+	<string>
+	<iostream>
+	<vector>
+
+1574274897 source:/home/azua2720/Music/Altair/src/Item.cpp
+	"Item.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<vector>
+
+1574275162 source:/home/azua2720/Music/Altair/src/ItemInventory.cpp
+	"ItemInventory.h"
+	"Player.h"
+	"Event.h"
+	"Character.h"
+	"Date.h"
+	"Item.h"
+	"KeyLines.h"
+	"Gift.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+
+1574493029 source:/home/azua2720/Music/Altair/src/Job.cpp
+	"Job.h"
+	"Player.h"
+	"Dialogue.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<iomanip>
+
+1574819989 source:/home/azua2720/Music/Altair/src/KeyLines.cpp
+	"KeyLines.h"
+	"StringMagician.h"
+	<iostream>
+	<string>
+
+1574276293 source:/home/azua2720/Music/Altair/src/Person.cpp
+	<string>
+	"Person.h"
+
+1574805141 source:/home/azua2720/Music/Altair/src/Player.cpp
+	<string>
+	<cmath>
+	"Person.h"
+	"Stat.h"
+	"Player.h"
+	"StringMagician.h"
+
+1574832520 source:/home/azua2720/Music/Altair/src/RoutineDialogueManager.cpp
+	"RoutineDialogueManager.h"
+	"Player.h"
+	"Choice.h"
+	"KeyLines.h"
+	"Dialogue.h"
+	"DialogueManager.h"
+	"Character.h"
+	"CharacterManager.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1574281615 source:/home/azua2720/Music/Altair/src/Stat.cpp
+	<string>
+	"Stat.h"
+	"StringMagician.h"
+
+1574647650 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Character.cpp
+	<string>
+	<iostream>
+	"Character.h"
+	"StringMagician.h"
+
+1574647664 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Character.h
+	<string>
+	"Person.h"
+
+1574203109 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Person.h
+	<string>
+
+1574203377 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/StringMagician.h
+	<string>
+	<locale>
+
+1574826365 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/CharacterManager.cpp
+	<string>
+	<vector>
+	<algorithm>
+	"Character.h"
+	"Player.h"
+	"CharacterManager.h"
+	"Exceptions.h"
+	"StringMagician.h"
+
+1574820404 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/CharacterManager.h
+	<vector>
+	<string>
+	<locale>
+	"Character.h"
+	"Exceptions.h"
+
+1574202451 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Exceptions.h
+	<stdexcept>
+
+1574645711 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Choice.cpp
+	"Person.h"
+	"HelperPerson.h"
+	"Player.h"
+	"Dialogue.h"
+	"CharacterManager.h"
+	"Choice.h"
+	<unistd.h>
+	<vector>
+	<string>
+	<iostream>
+
+1574202669 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/HelperPerson.h
+	<iostream>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+
+1574478637 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Player.h
+	<string>
+	<vector>
+	"Person.h"
+	"Stat.h"
+	"Club.h"
+
+1574203322 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Stat.h
+	<string>
+
+1574201984 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Club.h
+	<iostream>
+	<string>
+	"Player.h"
+	"Stat.h"
+
+1574645713 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Choice.h
+	<vector>
+	<string>
+	<iostream>
+	"Person.h"
+	"HelperPerson.h"
+
+1574219274 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/DialogueManager.cpp
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"DialogueManager.h"
+
+1574202343 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/DialogueManager.h
+	<vector>
+	"KeyLines.h"
+
+1574819992 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/KeyLines.h
+	"Player.h"
+	"Event.h"
+	"Item.h"
+	<string>
+
+1574474203 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Event.h
+	<iostream>
+	<string>
+	<vector>
+	"Date.h"
+	"Choice.h"
+
+1574474192 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Date.h
+	<string>
+
+1574203606 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Item.h
+	<string>
+
+1574546123 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Event.cpp
+	"Date.h"
+	"Event.h"
+	"Dialogue.h"
+	"Choice.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+
+1574833211 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/EventManager.cpp
+	"Choice.h"
+	"Event.h"
+	"EventManager.h"
+	"StringMagician.h"
+	"Job.h"
+	"Club.h"
+	"Dialogue.h"
+	"Hangout.h"
+	"HelperPerson.h"
+	"ItemShop.h"
+	<unistd.h>
+	<string>
+	<iostream>
+	<vector>
+
+1574828544 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/EventManager.h
+	<iostream>
+	<string>
+	<vector>
+	"Event.h"
+
+1574502720 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Job.h
+	<iostream>
+	<string>
+	"Character.h"
+	"Event.h"
+	"Date.h"
+
+1574202732 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Hangout.h
+	<iostream>
+	"Character.h"
+	"CharacterManager.h"
+
+1574202637 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Gift.h
+	"Character.h"
+	"Item.h"
+	<string>
+
+1574202942 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/ItemInventory.h
+	"Item.h"
+	"Character.h"
+	<locale>
+	<vector>
+
+1574830047 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/FileManager.cpp
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+	"FileManager.h"
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+
+1574823651 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/FileManager.h
+	<fstream>
+	<iostream>
+	<string>
+	"Character.h"
+	"EventManager.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+
+1574291203 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/game/main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"GameStateManager.h"
+
+1574360259 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/GameStateManager.h
+	<string>
+	<iostream>
+	<locale>
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+	"Dialogue.h"
+
+1574202544 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/GameDataManager.h
+	<iostream>
+	<string>
+	"FileManager.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+
+1574466213 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/RoutineDialogueManager.h
+	"Player.h"
+	"Character.h"
+	<iostream>
+	<string>
+
+1574651852 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/GameDataManager.cpp
+	"GameDataManager.h"
+	"FileManager.h"
+	"Player.h"
+	"ItemInventory.h"
+	"Character.h"
+	"Dialogue.h"
+	"CharacterManager.h"
+	"GameStateManager.h"
+	"EventManager.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<locale>
+
+1574832523 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/GameStateManager.cpp
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+	"GameStateManager.h"
+	"Date.h"
+	"Player.h"
+	"Job.h"
+	"Club.h"
+	"Hangout.h"
+	"StringMagician.h"
+	<unistd.h>
+	<string>
+	<iostream>
+
+1574238034 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Gift.cpp
+	"Gift.h"
+	"ItemInventory.h"
+	"Item.h"
+	"Player.h"
+	"Event.h"
+	"Character.h"
+	<unistd.h>
+	<iostream>
+	<string>
+
+1574501167 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Hangout.cpp
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Dialogue.h"
+	"Hangout.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<vector>
+
+1574274588 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/HelperPerson.cpp
+	"Person.h"
+	"Player.h"
+	"Character.h"
+	"HelperPerson.h"
+	"CharacterManager.h"
+	"StringMagician.h"
+	<unistd.h>
+	<string>
+	<iostream>
+	<vector>
+
+1574274897 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Item.cpp
+	"Item.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<vector>
+
+1574275162 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/ItemInventory.cpp
+	"ItemInventory.h"
+	"Player.h"
+	"Event.h"
+	"Character.h"
+	"Date.h"
+	"Item.h"
+	"KeyLines.h"
+	"Gift.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+
+1574493029 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Job.cpp
+	"Job.h"
+	"Player.h"
+	"Dialogue.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<iomanip>
+
+1574819989 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/KeyLines.cpp
+	"KeyLines.h"
+	"StringMagician.h"
+	<iostream>
+	<string>
+
+1574276293 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Person.cpp
+	<string>
+	"Person.h"
+
+1574805141 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Player.cpp
+	<string>
+	<cmath>
+	"Person.h"
+	"Stat.h"
+	"Player.h"
+	"StringMagician.h"
+
+1574833292 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/RoutineDialogueManager.cpp
+	"RoutineDialogueManager.h"
+	"Player.h"
+	"Choice.h"
+	"KeyLines.h"
+	"Dialogue.h"
+	"DialogueManager.h"
+	"Character.h"
+	"CharacterManager.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1574281615 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Stat.cpp
+	<string>
+	"Stat.h"
+	"StringMagician.h"
+
+1574816456 /home/azua2720/Music/Altair/include/Dialogue.h
+	"Player.h"
+	"Character.h"
+	<iostream>
+	<string>
+
+1574830178 source:/home/azua2720/Music/Altair/src/Dialogue.cpp
+	"RoutineDialogueManager.h"
+	"Choice.h"
+	"KeyLines.h"
+	"DialogueManager.h"
+	"Dialogue.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1574831560 source:/home/azua2720/Music/Altair/src/ItemShop.cpp
+	<string>
+	<iostream>
+	<vector>
+	"ItemShop.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"Dialogue.h"
+	"StringMagician.h"
+
+1574818370 /home/azua2720/Music/Altair/include/ItemShop.h
+	<string>
+	<iostream>
+	<vector>
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"Dialogue.h"
+
+1574816456 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/Dialogue.h
+	"Player.h"
+	"Character.h"
+	<iostream>
+	<string>
+
+1574492983 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Club.cpp
+	"Player.h"
+	"Club.h"
+	"StringMagician.h"
+	"Dialogue.h"
+	"Choice.h"
+	"Event.h"
+	"EventManager.h"
+	<unistd.h>
+	<iostream>
+	<string>
+
+1574474218 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Date.cpp
+	<string>
+	"Date.h"
+	"Event.h"
+	"EventManager.h"
+
+1574830178 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/Dialogue.cpp
+	"RoutineDialogueManager.h"
+	"Choice.h"
+	"KeyLines.h"
+	"DialogueManager.h"
+	"Dialogue.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1574818370 /run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/include/ItemShop.h
+	<string>
+	<iostream>
+	<vector>
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"Dialogue.h"
+
+1574831560 source:/run/user/1000/gvfs/sftp:host=linux0.cs.uleth.ca/home/azua2720/Music/Altair/src/ItemShop.cpp
+	<string>
+	<iostream>
+	<vector>
+	"ItemShop.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"Dialogue.h"
+	"StringMagician.h"
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Character.cpp
+	<string>
+	<iostream>
+	"Character.h"
+	"StringMagician.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Character.h
+	<string>
+	"Person.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Person.h
+	<string>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/StringMagician.h
+	<string>
+	<locale>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/CharacterManager.cpp
+	<string>
+	<vector>
+	<algorithm>
+	"Character.h"
+	"Player.h"
+	"CharacterManager.h"
+	"Exceptions.h"
+	"StringMagician.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Player.h
+	<string>
+	<vector>
+	"Person.h"
+	"Stat.h"
+	"Club.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Stat.h
+	<string>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Club.h
+	<iostream>
+	<string>
+	"Player.h"
+	"Stat.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/CharacterManager.h
+	<vector>
+	<string>
+	<locale>
+	"Character.h"
+	"Exceptions.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Exceptions.h
+	<stdexcept>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Choice.cpp
+	"Person.h"
+	"HelperPerson.h"
+	"Player.h"
+	"Dialogue.h"
+	"CharacterManager.h"
+	"Choice.h"
+	<unistd.h>
+	<vector>
+	<string>
+	<iostream>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/HelperPerson.h
+	<iostream>
+	<string>
+	"Character.h"
+	"CharacterManager.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Dialogue.h
+	"Player.h"
+	"Character.h"
+	<iostream>
+	<string>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Choice.h
+	<vector>
+	<string>
+	<iostream>
+	"Person.h"
+	"HelperPerson.h"
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Club.cpp
+	"Player.h"
+	"Club.h"
+	"StringMagician.h"
+	"Dialogue.h"
+	"Choice.h"
+	"Event.h"
+	"EventManager.h"
+	<unistd.h>
+	<iostream>
+	<string>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Event.h
+	<iostream>
+	<string>
+	<vector>
+	"Date.h"
+	"Choice.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Date.h
+	<string>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/EventManager.h
+	<iostream>
+	<string>
+	<vector>
+	"Event.h"
+	"EventMaker.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/EventMaker.h
+	<string>
+	<iostream>
+	"Dialogue.h"
+	"StringMagician.h"
+	"Event.h"
+	"Choice.h"
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Date.cpp
+	<string>
+	"Date.h"
+	"Event.h"
+	"EventManager.h"
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Dialogue.cpp
+	"RoutineDialogueManager.h"
+	"Choice.h"
+	"KeyLines.h"
+	"DialogueManager.h"
+	"Dialogue.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/RoutineDialogueManager.h
+	"Player.h"
+	"Character.h"
+	<iostream>
+	<string>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/KeyLines.h
+	"Player.h"
+	"Event.h"
+	"Item.h"
+	<string>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Item.h
+	<string>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/DialogueManager.h
+	<vector>
+	"KeyLines.h"
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/DialogueManager.cpp
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"DialogueManager.h"
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Event.cpp
+	"Date.h"
+	"Event.h"
+	"Dialogue.h"
+	"Choice.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/EventMaker.cpp
+	<string>
+	<iostream>
+	"Dialogue.h"
+	"StringMagician.h"
+	"Event.h"
+	"Choice.h"
+	"Dialogue.h"
+	"EventMaker.h"
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/EventManager.cpp
+	"Choice.h"
+	"Event.h"
+	"EventManager.h"
+	"EventMaker.h"
+	"StringMagician.h"
+	"Job.h"
+	"Club.h"
+	"Dialogue.h"
+	"Hangout.h"
+	"HelperPerson.h"
+	"ItemShop.h"
+	<unistd.h>
+	<string>
+	<iostream>
+	<vector>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Job.h
+	<iostream>
+	<string>
+	"Character.h"
+	"Event.h"
+	"Date.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Hangout.h
+	<iostream>
+	"Character.h"
+	"CharacterManager.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/ItemShop.h
+	<string>
+	<iostream>
+	<vector>
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"Dialogue.h"
+
+1574895855 source:/home/crub2720/Documents/assignments/Altair/src/FileManager.cpp
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+	"FileManager.h"
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/FileManager.h
+	<fstream>
+	<iostream>
+	<string>
+	"Character.h"
+	"EventManager.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Stat.h"
+
+1574895185 source:/home/crub2720/Documents/assignments/Altair/src/game/main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	"GameStateManager.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/GameStateManager.h
+	<string>
+	<iostream>
+	<locale>
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+	"Dialogue.h"
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/GameDataManager.h
+	<iostream>
+	<string>
+	"FileManager.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+
+1574895886 source:/home/crub2720/Documents/assignments/Altair/src/GameDataManager.cpp
+	"GameDataManager.h"
+	"FileManager.h"
+	"Player.h"
+	"ItemInventory.h"
+	"Character.h"
+	"Dialogue.h"
+	"CharacterManager.h"
+	"GameStateManager.h"
+	"EventManager.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<locale>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/ItemInventory.h
+	"Item.h"
+	"Character.h"
+	<locale>
+	<vector>
+
+1574895946 source:/home/crub2720/Documents/assignments/Altair/src/GameStateManager.cpp
+	"Character.h"
+	"CharacterManager.h"
+	"GameDataManager.h"
+	"Event.h"
+	"EventManager.h"
+	"RoutineDialogueManager.h"
+	"GameStateManager.h"
+	"Date.h"
+	"Player.h"
+	"Job.h"
+	"Club.h"
+	"Hangout.h"
+	"StringMagician.h"
+	<unistd.h>
+	<string>
+	<iostream>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Gift.cpp
+	"Gift.h"
+	"ItemInventory.h"
+	"Item.h"
+	"Player.h"
+	"Event.h"
+	"Character.h"
+	<unistd.h>
+	<iostream>
+	<string>
+
+1574895184 /home/crub2720/Documents/assignments/Altair/include/Gift.h
+	"Character.h"
+	"Item.h"
+	<string>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Hangout.cpp
+	"Character.h"
+	"CharacterManager.h"
+	"Player.h"
+	"Dialogue.h"
+	"Hangout.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<vector>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/HelperPerson.cpp
+	"Person.h"
+	"Player.h"
+	"Character.h"
+	"HelperPerson.h"
+	"CharacterManager.h"
+	"StringMagician.h"
+	<unistd.h>
+	<string>
+	<iostream>
+	<vector>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Item.cpp
+	"Item.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<vector>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/ItemInventory.cpp
+	"ItemInventory.h"
+	"Player.h"
+	"Event.h"
+	"Character.h"
+	"Date.h"
+	"Item.h"
+	"KeyLines.h"
+	"Gift.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/ItemShop.cpp
+	<string>
+	<iostream>
+	<vector>
+	"ItemShop.h"
+	"Player.h"
+	"Character.h"
+	"CharacterManager.h"
+	"Dialogue.h"
+	"StringMagician.h"
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Job.cpp
+	"Job.h"
+	"Player.h"
+	"Dialogue.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<iomanip>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/KeyLines.cpp
+	"KeyLines.h"
+	"StringMagician.h"
+	<iostream>
+	<string>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Person.cpp
+	<string>
+	"Person.h"
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Player.cpp
+	<string>
+	<cmath>
+	"Person.h"
+	"Stat.h"
+	"Player.h"
+	"StringMagician.h"
+
+1574896569 source:/home/crub2720/Documents/assignments/Altair/src/RoutineDialogueManager.cpp
+	"RoutineDialogueManager.h"
+	"Player.h"
+	"Choice.h"
+	"KeyLines.h"
+	"Dialogue.h"
+	"DialogueManager.h"
+	"Character.h"
+	"CharacterManager.h"
+	"StringMagician.h"
+	<unistd.h>
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1574895184 source:/home/crub2720/Documents/assignments/Altair/src/Stat.cpp
+	<string>
+	"Stat.h"
+	"StringMagician.h"
+
