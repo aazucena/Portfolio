@@ -1,0 +1,47 @@
+build-clean:
+   stage: build
+   script:
+      - make testGUI-clean
+   artifacts:
+      paths:
+         - testGUI-clean
+
+build-bugs:
+   stage: build
+   script:
+      - make testGUI-bugs
+   artifacts:
+      paths:
+         - testGUI-bugs
+
+test-clean:
+   dependencies:
+      - build-clean
+   stage: test
+   script:
+      - testGUI-clean
+
+test-bugs:
+   dependencies:
+     - build-bugs
+   stage: test
+   script:
+      - testGUI-bugs
+   allow_failure: true
+
+pages:
+   stage: deploy
+   dependencies:
+      - test-clean
+   script:
+      - make memcheck
+      - make static
+      - make style
+      - make docs
+   artifacts:
+      paths:
+         - coverage
+         - docs
+      expire_in: 14 days
+   only:
+      - master

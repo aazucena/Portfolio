@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1572111562 source:/home/azua2720/Documents/assignments/asn2/test/main.cpp
+	"gtest/gtest.h"
+
+1572111562 source:/home/azua2720/Documents/assignments/asn2/test/TestCoord.cpp
+	"Coordinate.h"
+	<sstream>
+	<string>
+	"gtest/gtest.h"
+
+1572299600 source:/home/azua2720/Documents/assignments/asn2/src/Coord.cpp
+	"Coordinate.h"
+
+1572299560 source:/home/azua2720/Documents/assignments/asn2/src/Image.cpp
+	"Image.h"
+	"Coordinate.h"
+
+1572299593 source:/home/azua2720/Documents/assignments/asn2/src/Textbox.cpp
+	"Textbox.h"
+	<iostream>
+	<string>
+	<cstring>
+
+1572111563 source:/home/azua2720/Documents/assignments/asn2/test/TestImage.cpp
+	"Image.h"
+	<string>
+	"gtest/gtest.h"
+
+1572111562 source:/home/azua2720/Documents/assignments/asn2/test/TestTextbox.cpp
+	"Textbox.h"
+	<string>
+	"gtest/gtest.h"
+
+1572299554 source:/home/azua2720/Documents/assignments/asn2/src/Widget.cpp
+	"Coordinate.h"
+	"Widget.h"
+	"Exceptions.h"
+	<iostream>
+	<string>
+
+1572111562 source:/home/azua2720/Documents/assignments/asn2/src/BaseWindow.cpp
+	"BaseWindow.h"
+	<iostream>
+	<string>
+
+1572111561 source:/home/azua2720/Documents/assignments/asn2/test/TestBaseWindow.cpp
+	"BaseWindow.h"
+	<string>
+	"gtest/gtest.h"
+
+1572299714 source:/home/azua2720/Documents/assignments/asn2/src/Window.cpp
+	"Window.h"
+	"Widget.h"
+	"Exceptions.h"
+	<iostream>
+	<string>
+	<algorithm>
+	<typeinfo>
+	<iomanip>
+	<vector>
+
+1572285646 source:/home/azua2720/Documents/assignments/asn2/test/TestAsciiWindow.cpp
+	"Image.h"
+	"Textbox.h"
+	"Coordinate.h"
+	"AsciiWindow.h"
+	<string>
+	<fstream>
+	<vector>
+	"gtest/gtest.h"
+
+1572301458 source:/home/azua2720/Documents/assignments/asn2/src/AsciiWindow.cpp
+	"Image.h"
+	"Textbox.h"
+	"Coordinate.h"
+	"AsciiWindow.h"
+	<iostream>
+	<string>
+	<vector>
+	<typeinfo>
+

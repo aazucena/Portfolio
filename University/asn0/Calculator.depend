@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1536768198 source:/home/anvik/2720/asn0/test/main.cpp
+	"gtest/gtest.h"
+
+1568913637 source:/home/azua2720/Documents/assignments/asn0/test/main.cpp
+	"Calculator.h"
+	"Exceptions.h"
+	"gtest/gtest.h"
+
+1568916141 source:/home/azua2720/Documents/assignments/asn0/test/TestCalculator.cpp
+	"Calculator.h"
+	"Exceptions.h"
+	"gtest/gtest.h"
+
+1568917092 source:/home/azua2720/Documents/assignments/asn0/src/Calculator.cpp
+	"Calculator.h"
+	"Exceptions.h"
+	"gtest/gtest.h"
+
+1568917092 /home/azua2720/Documents/assignments/asn0/include/Calculator.h
+	"Exceptions.h"
+	"gtest/gtest.h"
+
+1568914548 /home/azua2720/Documents/assignments/asn0/include/Exceptions.h
+	<stdexcept>
+

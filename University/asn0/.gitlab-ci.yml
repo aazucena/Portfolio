@@ -1,0 +1,31 @@
+compile:
+   stage: build
+   script:
+      - make testCalc
+   artifacts:
+      paths:
+         - testCalc
+
+
+test:
+   dependencies:
+      - compile
+   stage: test
+   script:
+      - testCalc
+
+pages:
+   stage: deploy
+   dependencies:
+      - test
+   script:
+      - make memcheck
+      - make static
+      - make style
+      - make docs
+   artifacts:
+      paths:
+         - docs
+      expire_in: 14 days
+   only:
+      - master
