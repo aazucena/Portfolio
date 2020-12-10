@@ -1,0 +1,5 @@
+run:
+   stage: deploy
+   script:
+      - make run
+      

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Scripts -->
+<script>
+
+function getSelected(id){
+  var inputs = document.getElementsByName(id);
+  var selected;
+
+  for(var input of inputs){
+    if(input.checked)
+      selected = input.value;
+  }
+  return selected;
+}
+
+function sendToServer() {
+  var text = "Init";
+
+  var x = document.getElementById("first").value;
+  var y = document.getElementById("second").value;
+
+  var op = getSelected("operation")
+
+  if (isNaN(x) || isNaN(y)) {
+    document.getElementById("result").innerHTML = "Input not valid";
+  } else {
+      fetch('http://142.66.168.154:1234/calc?op=' + op + '&first=' + x + '&second='+y)
+      .then((resp) => resp.json())
+      .then(function(data){
+        document.getElementById("result").innerHTML = "<b>Answer:</b> " + data["result"];
+      })
+      .catch(function(error){
+        console.log(error);
+      });
+    }
+  }
+
+</script>
+
+<!-- Web page -->
+<h2>CalcREST HTML Form</h2>
+
+  <fieldset>
+
+  	First number:<br>
+  	<input id="first" value="1">
+  	<br>
+
+  	Second number:<br>
+  	<input id="second" value="1">
+    <br>
+    <fieldset>
+    <input type="radio" name="operation" value="add" checked="true">Add<br>
+    <input type="radio" name="operation" value="sub">Subtract<br>
+    <input type="radio" name="operation" value="mul">Multiply<br>
+    <input type="radio" name="operation" value="div">Divide<br>
+    </fieldset
+    <p>
+	<button type="button" onclick="sendToServer()">Call Server</button>
+  </fieldset>
+</form>
+
+<p id="result"></p>
+
+</body>
+</html>

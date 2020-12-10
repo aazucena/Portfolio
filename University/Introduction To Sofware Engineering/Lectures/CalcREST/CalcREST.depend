@@ -1,0 +1,198 @@
+# depslib dependency file v1.0
+1567020145 source:/home/anvik/3720/Web/CalcREST/src/server/Calculator.cpp
+	"Calculator.h"
+
+1568244034 source:/home/anvik/3720/Web/CalcREST/test/main.cpp
+	"gtest/gtest.h"
+
+1567019004 /home/anvik/3720/Web/CalcREST/include/server/Calculator.h
+	"exceptions.h"
+
+1566414569 /home/anvik/3720/Web/CalcREST/include/server/exceptions.h
+	<stdexcept>
+
+1567110612 source:/home/anvik/3720/Web/CalcREST/test/CalcTest.cpp
+	"Calculator.h"
+	"gtest/gtest.h"
+
+1568308253 source:/home/anvik/3720/Web/CalcREST/src/server/main.cpp
+	<memory>
+	<cstdlib>
+	<restbed>
+	<cstring>
+	"Calculator.h"
+
+1565812186 /opt/restbed/include/restbed
+	"corvusoft/restbed/uri.hpp"
+	"corvusoft/restbed/http.hpp"
+	"corvusoft/restbed/rule.hpp"
+	"corvusoft/restbed/byte.hpp"
+	"corvusoft/restbed/string.hpp"
+	"corvusoft/restbed/logger.hpp"
+	"corvusoft/restbed/request.hpp"
+	"corvusoft/restbed/service.hpp"
+	"corvusoft/restbed/session.hpp"
+	"corvusoft/restbed/response.hpp"
+	"corvusoft/restbed/resource.hpp"
+	"corvusoft/restbed/settings.hpp"
+	"corvusoft/restbed/web_socket.hpp"
+	"corvusoft/restbed/status_code.hpp"
+	"corvusoft/restbed/ssl_settings.hpp"
+	"corvusoft/restbed/context_value.hpp"
+	"corvusoft/restbed/session_manager.hpp"
+	"corvusoft/restbed/web_socket_message.hpp"
+	"corvusoft/restbed/context_placeholder.hpp"
+	"corvusoft/restbed/context_placeholder_base.hpp"
+
+1565812186 /opt/restbed/include/corvusoft/restbed/uri.hpp
+	<map>
+	<string>
+	<memory>
+	<cstdint>
+	<corvusoft/restbed/byte.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/byte.hpp
+	<vector>
+	<cstdint>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/http.hpp
+	<string>
+	<memory>
+	<future>
+	<cstddef>
+	<functional>
+	<corvusoft/restbed/byte.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/rule.hpp
+	<memory>
+	<functional>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/string.hpp
+	<map>
+	<string>
+	<vector>
+	<cstdarg>
+	<corvusoft/restbed/byte.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/logger.hpp
+	<string>
+	<memory>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/request.hpp
+	<map>
+	<limits>
+	<string>
+	<memory>
+	<cstdint>
+	<stdexcept>
+	<functional>
+	<corvusoft/restbed/byte.hpp>
+	<corvusoft/restbed/common.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/common.hpp
+	<string>
+	<utility>
+	<sstream>
+	<algorithm>
+	<type_traits>
+	<corvusoft/restbed/string.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/service.hpp
+	<map>
+	<chrono>
+	<memory>
+	<string>
+	<stdexcept>
+	<functional>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/session.hpp
+	<map>
+	<set>
+	<chrono>
+	<string>
+	<memory>
+	<functional>
+	<corvusoft/restbed/byte.hpp>
+	<corvusoft/restbed/string.hpp>
+	<corvusoft/restbed/context_value.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/context_value.hpp
+	<memory>
+	<ciso646>
+	<typeinfo>
+	<stdexcept>
+	<corvusoft/restbed/context_placeholder.hpp>
+	<corvusoft/restbed/context_placeholder_base.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/context_placeholder.hpp
+	<typeinfo>
+	<corvusoft/restbed/context_placeholder_base.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/context_placeholder_base.hpp
+	<typeinfo>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/response.hpp
+	<map>
+	<string>
+	<limits>
+	<memory>
+	<cstdint>
+	<functional>
+	<corvusoft/restbed/byte.hpp>
+	<corvusoft/restbed/common.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/resource.hpp
+	<map>
+	<set>
+	<string>
+	<functional>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/settings.hpp
+	<map>
+	<chrono>
+	<memory>
+	<string>
+	<cstdint>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/web_socket.hpp
+	<string>
+	<memory>
+	<functional>
+	<system_error>
+	<corvusoft/restbed/web_socket_message.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/web_socket_message.hpp
+	<tuple>
+	<string>
+	<memory>
+	<cstdint>
+	<system_error>
+	<corvusoft/restbed/byte.hpp>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/status_code.hpp
+
+1565812186 /opt/restbed/include/corvusoft/restbed/ssl_settings.hpp
+	<string>
+	<memory>
+	<cstdint>
+
+1565812186 /opt/restbed/include/corvusoft/restbed/session_manager.hpp
+	<memory>
+	<functional>
+
+1567102512 source:/home/anvik/3720/Web/CalcREST/src/client/main.cpp
+	<memory>
+	<future>
+	<cstdio>
+	<cstdlib>
+	<restbed>
+
+1568244129 source:/home/anvik/3720/Web/CalcREST/src/service/Calculator.cpp
+	"Calculator.h"
+
+1568244827 /home/anvik/3720/Web/CalcREST/include/service/Calculator.h
+	"./exceptions.h"
+
+1568244819 /home/anvik/3720/Web/CalcREST/include/service/exceptions.h
+	<stdexcept>
+

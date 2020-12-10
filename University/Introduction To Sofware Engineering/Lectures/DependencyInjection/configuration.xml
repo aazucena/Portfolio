@@ -1,0 +1,11 @@
+<contract id="AutomatedStockTrader">
+    <implementation>SimpleStockTrader</implementation>
+</contract>
+
+<contract id="StockAnalysisService">
+    <implementation>AwesomeStockAnalysisService</implementation>
+</contract>
+
+<contract id="StockBrokerageService">
+    <implementation>NYStockExchangeBrokerage</implementation>
+</contract>

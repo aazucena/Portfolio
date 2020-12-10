@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1516670255 source:/home/anvik/3720/MockWarehouse/test/main.cpp
+	"gtest/gtest.h"
+	"OrderStateTest.h"
+	"OrderMockTest.h"
+
+1521729345 source:/home/anvik/3720/MockWarehouse/src/Order.cpp
+	"Order.h"
+
+1516669420 /home/anvik/3720/MockWarehouse/include/Order.h
+	<string>
+	"Warehouse.h"
+
+1521729362 /home/anvik/3720/MockWarehouse/test/OrderStateTest.h
+	<gtest/gtest.h>
+	"Warehouse.h"
+	"Order.h"
+	<iostream>
+
+1516669693 /home/anvik/3720/MockWarehouse/include/Warehouse.h
+	<map>
+	<iostream>
+
+1516669513 source:/home/anvik/3720/MockWarehouse/src/Warehouse.cpp
+	"Warehouse.h"
+
+1521730018 /home/anvik/3720/MockWarehouse/test/OrderMockTest.h
+	"gmock/gmock.h"
+	"Warehouse.h"
+
+1516670268 /home/anvik/3720/MockWarehouse/test/MockWarehouse.h
+	"gmock/gmock.h"
+	"Warehouse.h"
+

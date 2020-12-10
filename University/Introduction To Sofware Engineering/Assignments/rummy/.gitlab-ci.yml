@@ -1,0 +1,51 @@
+stages:
+   - build
+   - test
+   - quality
+   - docs
+
+build-game:
+   stage: build
+   script:
+      - make cardGame
+   artifacts:
+      paths:
+         - cardGame
+
+build-test:
+   stage: build
+   script:
+      - make testGame
+
+memcheck-test:
+   stage: quality
+   script:
+      - make memcheck-test
+
+staticAnalysis:
+   stage: quality
+   script:
+      - make static
+
+style:
+   stage: quality
+   script:
+      - make style
+
+coverage:
+   stage: test
+   script:
+      - make coverage
+   artifacts:
+      paths:
+         - coverage
+      expire_in: 14 days
+
+docs:
+   stage: docs
+   script:
+      - make docs
+   artifacts:
+      paths:
+         - docs
+      expire_in: 14 days
