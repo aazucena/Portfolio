@@ -1,0 +1,9 @@
+CPP = gcc
+COMPILERFLAGS = -Wall
+LFLAGS = -lglut32
+LIBRARIES = -lopengl32 -lglu32
+
+All: shadow.exe
+
+shadow.exe: shadow.cc
+	$(CPP) -o $@ $(COMPILERFLAGS) $< $(LFLAGS) $(LIBRARIES)
