@@ -1,0 +1,9 @@
+CPP = g++
+COMPILERFLAGS = -Wall
+LFLAGS = -lglut32
+LIBRARIES = -lopengl32 -lglu32
+
+All: azucena.exe
+
+azucena.exe: azucena.c
+	$(CPP) -o $@ $(COMPILERFLAGS) $< $(LFLAGS) $(LIBRARIES)
